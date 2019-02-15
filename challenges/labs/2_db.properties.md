@@ -1,0 +1,9 @@
+[centos@ip-172-31-37-70 ~]$ sudo head /var/log/cloudera-scm-server/cloudera-scm-server.log
+2019-02-15 09:46:20,522 INFO main:com.cloudera.server.cmf.Main: ================================================================================
+2019-02-15 09:46:20,531 INFO main:com.cloudera.server.cmf.Main: Starting SCM Server. JVM Args: [-Dlog4j.configuration=file:/etc/cloudera-scm-server/log4j.properties, -Dfile.encoding=UTF-8, -Dcmf.root.logger=INFO,LOGFILE, -Dcmf.log.dir=/var/log/cloudera-scm-server, -Dcmf.log.file=cloudera-scm-server.log, -Dcmf.jetty.threshhold=WARN, -Dcmf.schema.dir=/usr/share/cmf/schema, -Djava.awt.headless=true, -Djava.net.preferIPv4Stack=true, -Dpython.home=/usr/share/cmf/python, -XX:+UseConcMarkSweepGC, -XX:+UseParNewGC, -XX:+HeapDumpOnOutOfMemoryError, -Xmx2G, -XX:MaxPermSize=256m, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=/tmp, -XX:OnOutOfMemoryError=kill -9 %p], Args: [], Version: 5.16.1 (#1 built by jenkins on 20181120-1809 git: 6a13b87a6fcdf4afad6d4474a68a9434b24d6c67)
+
+2019-02-15 09:47:11,729 INFO WebServerImpl:org.mortbay.log: jetty-6.1.26.cloudera.4
+2019-02-15 09:47:11,732 INFO WebServerImpl:org.mortbay.log: Started SelectChannelConnector@0.0.0.0:7180
+2019-02-15 09:47:11,732 INFO WebServerImpl:com.cloudera.server.cmf.WebServerImpl: Started Jetty server.
+2019-02-15 09:47:11,760 INFO SearchRepositoryManager-0:com.cloudera.server.web.cmf.search.components.SearchRepositoryManager: Finished constructing repo:2019-02-15T09:47:11.760Z
+2019-02-15 09:47:15,874 INFO ScmActive-0:com.cloudera.server.cmf.components.ScmActive: ScmActive completed successfully.
